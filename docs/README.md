@@ -26,7 +26,12 @@ The personas and documentation below provide detailed guidance for each phase an
 
 ### Team & Roles
 
-- **[Roles & Personas](octoacme-roles-and-personas.md)** - Detailed definitions of Developer, Product Manager, and Project Manager roles with responsibilities and communication patterns
+- **[Roles & Personas](octoacme-roles-and-personas.md)** - Detailed definitions of all project roles including Product Owner, Scrum Master, Technical Lead, Business Analyst, Stakeholder, Developer, Product Manager, and Project Manager with responsibilities, goals, and interaction patterns
+
+### Templates & Tools
+
+- **[Role-Responsibility Matrix Template](template-role-responsibility-matrix.md)** - RACI template for defining accountability across project activities
+- **[Role Onboarding Checklist](template-role-onboarding-checklist.md)** - Comprehensive onboarding checklists for each role to ensure smooth transitions
 
 ## Getting Started
 
