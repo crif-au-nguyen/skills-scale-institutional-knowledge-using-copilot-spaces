@@ -26,8 +26,8 @@ This template helps project teams define and communicate who is responsible, acc
 | Problem Statement | C | I | I | I | R | A | C | C | I |
 | Success Metrics | C | I | I | I | R | A | C | C | I |
 | **Planning Phase** |
-| Backlog Creation | A | C | C | C | R | C | C | I | I |
-| User Story Definition | A | C | C | C | R | I | I | C | I |
+| Backlog Creation | A,R | C | C | C | C | C | C | I | I |
+| User Story Definition | A,R | C | C | C | C | I | I | C | I |
 | Sprint Planning | A | R | C | C | I | I | C | I | C |
 | Technical Architecture | C | I | C | A | I | C | C | I | I |
 | Estimation | C | R | R | A | I | I | C | I | C |
@@ -44,12 +44,12 @@ This template helps project teams define and communicate who is responsible, acc
 | Test Planning | C | I | C | C | I | I | C | I | A |
 | Unit Testing | I | I | A,R | C | I | I | I | I | I |
 | Integration Testing | C | I | R | C | I | I | I | I | A |
-| User Acceptance Testing | A | I | I | I | R | I | C | C | A |
+| User Acceptance Testing | A | I | I | I | R | I | C | C | R |
 | Bug Triage | C | R | R | C | I | C | C | I | A |
 | **Release & Deployment** |
 | Release Planning | C | I | C | C | I | A | R | C | I |
-| Deployment Execution | I | I | A,R | A | I | I | C | I | C |
-| Smoke Testing | I | I | C | C | I | I | C | I | A,R |
+| Deployment Execution | I | I | R | C | I | I | C | I | A |
+| Smoke Testing | I | I | R | C | I | I | C | I | A |
 | Rollback Decision | I | I | C | C | I | C | A | I | I |
 | Release Communication | I | I | I | I | I | C | A,R | I | I |
 | **Monitoring & Improvement** |
@@ -63,7 +63,9 @@ This template helps project teams define and communicate who is responsible, acc
 ## Notes
 - Adapt this matrix to your project's specific needs
 - Some activities may have multiple Responsible parties (joint responsibility)
-- Only one person/role should be Accountable for each activity
+- Only one person/role should be Accountable for each activity (exception: A,R when same role does both)
+- **Product Owner** is both Accountable and Responsible for Backlog Creation and User Story Definition in standard Agile practices. Business Analysts support this work but don't typically own it.
+- **User Acceptance Testing**: Product Owner is Accountable for acceptance decisions, Business Analyst is Responsible for coordinating UAT activities, and QA/Testing is Responsible for executing tests
 - Review and update this matrix at major project milestones
 - Use this as a reference during role handoffs or onboarding
 
