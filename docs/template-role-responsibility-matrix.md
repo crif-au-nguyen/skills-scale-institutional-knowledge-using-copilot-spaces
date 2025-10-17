@@ -62,10 +62,10 @@ This template helps project teams define and communicate who is responsible, acc
 
 ## Notes
 - Adapt this matrix to your project's specific needs
-- Some activities may have multiple Responsible parties (joint responsibility)
+- Some activities may have multiple Responsible parties (joint responsibility) when they perform different aspects of the same activity
 - Only one person/role should be Accountable for each activity (exception: A,R when same role does both)
 - **Product Owner** is both Accountable and Responsible for Backlog Creation and User Story Definition in standard Agile practices. Business Analysts support this work but don't typically own it.
-- **User Acceptance Testing**: Product Owner is Accountable for acceptance decisions, Business Analyst is Responsible for coordinating UAT activities, and QA/Testing is Responsible for executing tests
+- **User Acceptance Testing**: Product Owner is Accountable for acceptance decisions. Business Analyst is Responsible for coordinating UAT activities (scheduling, communication, documentation), while QA/Testing is Responsible for executing tests. Both R assignments are valid as they cover different aspects of UAT.
 - Review and update this matrix at major project milestones
 - Use this as a reference during role handoffs or onboarding
 
